@@ -107,10 +107,4 @@ The system uses a SuperMultiTaskSkinNet architecture featuring:
 - `HOST` - Server host (default: `127.0.0.1`)
 - `PORT` - Server port (default: `7860`)
 
-## License
 
-This project is provided as-is for research and educational purposes.
-
-## Acknowledgments
-
-Built with PyTorch, Flask, and modern deep learning techniques for skin health analysis.
