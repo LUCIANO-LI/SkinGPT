@@ -63,29 +63,6 @@ python Training-6871.py
 
 Ensure your dataset follows the expected structure with multi-modal images and labels in CSV format.
 
-## Project Structure
-
-```
-SkinGPT/
-├── models/                    # Model weights directory
-├── SuperSkinGPT.py           # Core model architecture and inference
-├── Training-6871.py          # Training script
-├── server.py                 # Flask API server
-├── Page.html                 # Web interface
-├── requirement.txt           # Python dependencies
-└── README.md                 # This file
-```
-
-## Model Architecture
-
-The system uses a SuperMultiTaskSkinNet architecture featuring:
-
-- Multi-modal ResNet18 backbones for feature extraction
-- Cross-image transformer for modality fusion
-- Pyramid pooling for multi-scale feature aggregation
-- Task-Specific Attention Allocation (TSAA) mechanism
-- Ensemble prediction with main and auxiliary heads
-
 ## Performance
 
 - Accuracy: 68%+ on validation datasets
